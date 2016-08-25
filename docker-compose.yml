@@ -1,0 +1,13 @@
+svn:
+ image: pikado/alpine-svn
+ container_name: alpine_svn
+ hostname: alpine-svn
+ environment:
+ - DAV_SVN_USER=davsvnu
+ - DAV_SVN_PASS=davsvnp
+ - SVN_REPO=testrepo
+ ports:
+ - "80"
+# volumes:
+# - /path/volumes/svn:/var/svn
+ restart: always
