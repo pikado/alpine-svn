@@ -1,6 +1,8 @@
 # alpine-svn
-## Description
+## Description:
+
 Docker image for Subversion with WebDAV on Alpine Linux
+
 ## Usage:
 
 Starting container with docker command:
