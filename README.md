@@ -64,6 +64,8 @@ Commit messages suck:
 
     `Autoversioning commit:  a non-deltaV client made a change to`
 
-It would be nice if MOD_DAV_SVN could accept a header for a custom message. Source for that log message [is here](https://svn.apache.org/repos/asf/subversion/trunk/subversion/mod_dav_svn/version.c)
+It would be nice if MOD_DAV_SVN could accept a header for a custom message. Source for that log message [is here](https://svn.apache.org/repos/asf/subversion/trunk/subversion/mod_dav_svn/version.c). There is also a
+ticket for that change [SVN-4454](https://issues.apache.org/jira/browse/SVN-4454), that is presently
+marked as 'Won't Fix'.
 
 Refer http://svnbook.red-bean.com/en/1.7/svn.webdav.autoversioning.html for canonical SVNAutoversioning info.
