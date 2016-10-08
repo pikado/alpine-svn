@@ -35,6 +35,10 @@ docker run -d -e DAV_SVN_USER=user -e DAV_SVN_PASS=pass -e SVN_REPO=repo -P paul
 ```
 The container start with the specified account: user (password: pass) and the specified repository: repo
 
+## Host storage
+
+Docker allocates an expanding sorage file to the container. The default for that is 50GB.
+
 ## Using it
 
 Quick and dirty, note the server address:
